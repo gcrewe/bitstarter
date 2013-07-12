@@ -1,7 +1,7 @@
 
 var fs = require("fs");
  
-var greeting = fs.readFileSync('/home/ubuntu/bitstarter/index.html').toString();
+var greeting = fs.readFileSync('index.html').toString();
 
 var express = require('express');
 
